@@ -1,4 +1,4 @@
-package com.lettomaxchoicetype
+package com.letto.max.choice.type
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

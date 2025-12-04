@@ -1,4 +1,4 @@
-package com.lettomaxchoicetype
+package com.letto.max.choice.type
 
 import android.app.Application
 import com.facebook.react.PackageList
