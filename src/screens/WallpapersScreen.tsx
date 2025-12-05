@@ -19,7 +19,7 @@ import { CameraRoll } from '@react-native-camera-roll/camera-roll';
 import { useFocusEffect } from '@react-navigation/native';
 import RNFS from 'react-native-fs';
 
-const BG = '#028EE5';
+const BG = '#074b22ff';
 const KEY_MAX = '@max_balls';
 const KEY_UNLOCKED = '@unlocked_walls';
 

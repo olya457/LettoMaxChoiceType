@@ -1,4 +1,4 @@
-package com.letto.max.choice.type
+package com.togotoquicktype
 
 import android.app.Application
 import com.facebook.react.PackageList

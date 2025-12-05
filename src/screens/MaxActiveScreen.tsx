@@ -16,7 +16,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const { width: W0, height: H0 } = Dimensions.get('window');
 const small0 = W0 <= 360 || H0 <= 700;
 
-const BG = '#028EE5';
+const BG = '#074b22ff';
 const BTN = '#63B861';
 const BTN_LIGHT = '#9EE38F';
 const DOT = '#2EC15A';

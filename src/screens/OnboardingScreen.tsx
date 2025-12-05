@@ -16,7 +16,7 @@ import { RootStackParamList } from '../navigation/AppNavigator';
 export type OnbProps = NativeStackScreenProps<RootStackParamList, 'Onboarding'>;
 
 const { width: W, height: H } = Dimensions.get('window');
-const BG = '#028EE5';
+const BG = '#074b22ff';
 const isSmall = W <= 360 || H <= 700;
 
 type Slide = {
@@ -35,7 +35,7 @@ const scale = (n: number) => (isSmall ? Math.round(n * 0.88) : n);
 const SLIDES: Slide[] = [
   {
     key: '1',
-    title: 'Meet Max',
+    title: 'Meet Tom',
     subtitle: "I don't analyze you. I just watch how you choose.",
     cta: 'Start',
     image: require('../assets/onb_man1.png'),
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
   figureWrap: { width: '100%', alignItems: 'center', justifyContent: 'flex-start', marginTop: isSmall ? 0 : 8 },
   title: { color: '#FFFFFF', fontWeight: '800', textAlign: 'center', marginTop: isSmall ? 4 : 8 },
   bubble: {
-    backgroundColor: 'rgba(0, 36, 86, 0.35)',
+    backgroundColor: 'rgba(182, 169, 21, 0.87)',
     borderRadius: 18,
     paddingHorizontal: 14,
     paddingVertical: isSmall ? 10 : 14,

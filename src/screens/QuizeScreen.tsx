@@ -22,7 +22,7 @@ type ChoiceType = 'calm' | 'steady' | 'quick';
 const { width: W0, height: H0 } = Dimensions.get('window');
 const small = W0 <= 360 || H0 <= 700;
 
-const BG = '#028EE5';
+const BG = '#074b22ff';
 const KEY_TYPE = '@choice_type';
 const KEY_LAST = '@last_balls';
 const KEY_MAX = '@max_balls';

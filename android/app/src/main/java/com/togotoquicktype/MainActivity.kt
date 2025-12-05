@@ -1,4 +1,4 @@
-package com.letto.max.choice.type
+package com.togotoquicktype
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

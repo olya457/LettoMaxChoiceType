@@ -89,7 +89,7 @@ export default function SplashScreen({ navigation }: SplashProps) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#028EE5', alignItems: 'center', justifyContent: 'center' },
+  container: { flex: 1, backgroundColor: '#074b22ff', alignItems: 'center', justifyContent: 'center' },
   webview: { backgroundColor: 'transparent' },
   logoWrap: { alignItems: 'center', justifyContent: 'center', paddingHorizontal: 24 },
 });

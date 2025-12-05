@@ -14,7 +14,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const { width: W0, height: H0 } = Dimensions.get('window');
 const small = W0 <= 360 || H0 <= 700;
-const BG = '#028EE5';
+const BG = '#074b22ff';
 
 const KEY_TYPE = '@choice_type';
 const CANDIDATE_MAX_KEYS = ['@max_balls', '@maxBalls', 'max_balls', 'MAX_BALLS', 'maxBalls'];
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     paddingHorizontal: 8,
   },
-  counterText: { color: '#FFFFFF', fontWeight: '700', marginRight: 6 },
+  counterText: { color: '#ffffffff', fontWeight: '700', marginRight: 6 },
   counterDot: {
     width: 18,
     height: 18,
@@ -238,6 +238,6 @@ const styles = StyleSheet.create({
   preSubtitle: { color: '#FFFFFF', textAlign: 'center', marginTop: 12 },
   primaryBtn: { marginTop: 14, backgroundColor: '#B6FF7A', paddingHorizontal: 22, paddingVertical: 12, borderRadius: 12 },
   primaryBtnText: { color: '#0E1E2E', fontWeight: '700' },
-  typeTitle: { color: '#FFFFFF', fontWeight: '800', textAlign: 'center', marginTop: 8 },
+  typeTitle: { color: '#c6b308ff', fontWeight: '800', textAlign: 'center', marginTop: 8 },
   typeSubtitle: { color: '#FFFFFF', textAlign: 'center', opacity: 0.95, marginTop: 10 },
 });
